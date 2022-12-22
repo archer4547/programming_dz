@@ -32,6 +32,8 @@ int main(void)
     }
     while (check);
 
+    for (int i = 0; i < N; i++) printf("%i ", array[i]);
+    printf("\n");
     check = 0;
 
     while ( right >= left )
