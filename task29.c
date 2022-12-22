@@ -44,8 +44,8 @@ int main(void)
             check = 1;
             break;
         }
-        if (number < array[temp]) right = temp - 1;
-        if (number > array[temp]) left = temp + 1;
+        if (number > array[temp]) right = temp - 1;
+        if (number < array[temp]) left = temp + 1;
     }
 
     if (!check)
